@@ -1,0 +1,36 @@
+//-----------------------------Method 2-----------------------------
+//Step 1:
+//We start by defining all the Media Breakpoints as below.
+//Then we create Mixins for Layouts/Components.
+//--------------------------------------------------------
+//Step 2:
+//We add the mixins we created to the respective breakpoint;
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 200px) {
+
+  }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) {
+  }
+  //Mobile Special
+  @media (max-width: 480px) {
+
+  }
+  //Table Special
+  @media (max-width: 992px) and(min-width:768px) {
+  }
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+
+  }
+  
+  // X-Large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+  
+  }
+  
+  // XX-Large devices (larger desktops, 1400px and up)
+  @media (min-width: 1400px) {
+  }
+  

@@ -1,0 +1,56 @@
+%poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+%poppins-200{
+    @extend %poppins;
+    font-weight: 200;
+}
+%poppins-300{
+    @extend %poppins-300;
+    font-weight: 300;
+}
+%poppins-300i{
+    @extend %poppins-300;
+    font-style: italic
+}
+%poppins-400{
+    @extend %poppins;
+    font-weight: 400;
+}
+%poppins-400i{
+    @extend %poppins-400;
+    font-style: italic;
+}
+%poppins-500{
+    @extend %poppins;
+    font-weight: 500;
+}
+%poppins-500i{
+    @extend%poppins-500;
+    font-style: italic;
+}
+%poppins-600{
+    @extend %poppins;
+    font-weight: 600;
+}
+%poppins-600i{
+    @extend %poppins-600;
+    font-style: italic;
+}
+%poppins-700{
+    @extend %poppins;
+    font-weight: 700;
+}
+%poppins-700i{
+   @extend %poppins-700;
+   font-style: italic;
+}
+%poppins-800{
+    @extend %poppins;
+    font-weight: 800;
+}
+%poppins-800i{
+@extend %poppins-800;
+font-style: italic;
+}
